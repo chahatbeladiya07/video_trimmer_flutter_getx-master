@@ -1,0 +1,29 @@
+name: video_trimmer_flutter_getx
+version: 1.0.0+1
+publish_to: none
+description: Video Trimmer Demo
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+dependencies:
+  cupertino_icons:
+  dio:
+  json_annotation:
+  json_serializable:
+  get_it:
+  dio_logging_interceptor:
+  build_runner:
+#  downloads_path_provider:
+  path_provider:
+  permission_handler:
+
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
